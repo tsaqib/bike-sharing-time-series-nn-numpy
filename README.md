@@ -1,4 +1,4 @@
-# A Neural Network written completely using Numpy on Bike Sharing Time Series dataset
+# A Neural Network using Numpy on Time Series dataset
 
 ## Results
 
