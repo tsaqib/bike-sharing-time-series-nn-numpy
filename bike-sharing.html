@@ -13420,7 +13420,7 @@ height=263
         <span class="n">hidden_outputs</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">activation_function</span><span class="p">(</span><span class="n">hidden_inputs</span><span class="p">)</span>  <span class="c1"># (2, 1) -&gt; (2, 1)</span>
 
         <span class="c1"># Output layer (Hidden to Output)</span>
-        <span class="n">final_inputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">weights_hidden_to_output</span><span class="p">,</span> <span class="n">hidden_outputs</span><span class="p">)</span>  <span class="c1"># (1, 2) -&gt; (2, 1) -&gt; (1, 1)</span>
+        <span class="n">final_inputs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">weights_hidden_to_output</span><span class="p">,</span> <span class="n">hidden_outputs</span><span class="p">)</span>  <span class="c1"># (1, 2) x (2, 1) -&gt; (1, 1)</span>
         <span class="n">final_outputs</span> <span class="o">=</span> <span class="n">final_inputs</span>  <span class="c1"># signals from final output layer, eg. f(x)=x. (1, 1)</span>
 
         <span class="k">if</span> <span class="n">_VERBOSE</span><span class="p">:</span>
