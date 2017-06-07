@@ -1,5 +1,6 @@
-### Automatic SMS of trading notifs. and to alerts for human intervention 
-![Image of Cryptocurrency SMS](https://raw.githubusercontent.com/tsaqib/ml-playground/master/crypto-trader/sms.png)
+- Automatic SMS of trading notifs. and to alerts for human intervention 
+- Unique buying and selling points detection using statistical regression
 
-### Unique buying and selling points detection
-![Image of Cryptocurrency trading](https://raw.githubusercontent.com/tsaqib/ml-playground/master/crypto-trader/btc.png)
+![Image of Cryptocurrency trading](https://raw.githubusercontent.com/tsaqib/ml-playground/master/crypto-trader/crypto.png)
+
+
