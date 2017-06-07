@@ -1,0 +1,1 @@
+![Image of Cryptocurrency trading](https://octodex.github.com/images/yaktocat.png)
