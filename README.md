@@ -1,5 +1,3 @@
-# 
-
 Clone this repository to run the notebook locally. This notebook contains the following mini-projects:
 
 - [A Neural Network using Numpy on Time Series dataset](http://tanzimsaqib.com/nn-numpy-timeseries)
