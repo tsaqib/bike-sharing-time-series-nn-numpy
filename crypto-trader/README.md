@@ -1,1 +1,1 @@
-![Image of Cryptocurrency trading](https://octodex.github.com/images/yaktocat.png)
+![Image of Cryptocurrency trading](https://github.com/tsaqib/ml-playground/crypto-trader/btc.png)
