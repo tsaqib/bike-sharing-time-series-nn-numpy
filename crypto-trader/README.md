@@ -1,1 +1,1 @@
-![Image of Cryptocurrency trading](https://github.com/tsaqib/ml-playground/blob/master/crypto-trader/btc.png)
+![Image of Cryptocurrency trading](https://raw.githubusercontent.com/tsaqib/ml-playground/master/crypto-trader/btc.png)
