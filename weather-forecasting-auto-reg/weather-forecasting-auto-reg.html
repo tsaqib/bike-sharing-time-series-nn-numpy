@@ -11798,19 +11798,6 @@ div#notebook {
 <span class="c1"># At the time of writing, statsmodels didn&#39;t catchup with the latest pandas,</span>
 <span class="c1"># so there are a few unwanted warnings we don&#39;t want to see here.</span>
 <span class="c1"># Follow this instruction to ignore warnings: https://stackoverflow.com/questions/9031783/hide-all-warnings-in-ipython</span>
-<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&lt;script&gt;</span>
-<span class="s1">code_show_err=false; </span>
-<span class="s1">function code_toggle_err() {</span>
-<span class="s1"> if (code_show_err){</span>
-<span class="s1"> $(&#39;div.output_stderr&#39;).hide();</span>
-<span class="s1"> } else {</span>
-<span class="s1"> $(&#39;div.output_stderr&#39;).show();</span>
-<span class="s1"> }</span>
-<span class="s1"> code_show_err = !code_show_err</span>
-<span class="s1">} </span>
-<span class="s1">$( document ).ready(code_toggle_err);</span>
-<span class="s1">&lt;/script&gt;</span>
-<span class="s1">To toggle on/off output_stderr, click &lt;a href=&quot;javascript:code_toggle_err()&quot;&gt;here&lt;/a&gt;.&#39;&#39;&#39;</span><span class="p">)</span>
 
 <span class="n">np</span><span class="o">.</span><span class="n">set_printoptions</span><span class="p">(</span><span class="n">threshold</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">inf</span><span class="p">)</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
@@ -15780,7 +15767,6 @@ dtype: float64
 <div class="prompt"></div>
 
 
-
 </div>
 
 <div class="output_area">
@@ -15856,7 +15842,7 @@ dtype: float64
 ============================================================================
 Model:                ARMA                 BIC:                   5223.2018 
 Dependent Variable:   AverageTemperature   Log-Likelihood:        -2586.3   
-Date:                 2017-06-07 14:35     Scale:                 1.0000    
+Date:                 2017-06-07 14:39     Scale:                 1.0000    
 No. Observations:     1365                 Method:                css-mle   
 Df Model:             6                    Sample:                01-01-1900
 Df Residuals:         1359                                        09-01-2013
