@@ -1,4 +1,4 @@
-Clone this repository to run the notebook locally. This notebook contains the following mini-projects:
+Clone this repository to run the notebooks locally. These notebooks contain the following mini-projects:
 
 - [A Neural Network using Numpy on Time Series dataset](http://tanzimsaqib.com/nn-numpy-timeseries)
 - [Weather Forecasting using Auto-regressive Model](https://github.com/tsaqib/ml-playground/blob/master/weather-forecasting-auto-reg/weather-forecasting-auto-reg.ipynb)
