@@ -3,3 +3,6 @@ pandas
 numpy
 jupyter
 statsmodels
+sklearn
+tqdm
+tensorflow
