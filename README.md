@@ -8,3 +8,5 @@ Clone this repository to run the notebook locally. This notebook contains the fo
 
 ## Computer Vision
 - [A Step-by-Step Convolutional Neural Network using TensorFlow](http://tanzimsaqib.com/cnn-tensorflow)
+
+Website/blog: [http://tanzimsaqib.com](http://tanzimsaqib.com)
