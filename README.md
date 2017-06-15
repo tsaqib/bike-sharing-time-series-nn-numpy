@@ -1,4 +1,4 @@
-Clone this repository to run the notebook locally. This notebook contains the following mini-projects:
+Clone this repository to run the notebooks locally. These notebook contain the following mini-projects:
 
 ## Time Series
 - [A Neural Network using Numpy on Time Series dataset](http://tanzimsaqib.com/nn-numpy-timeseries)
