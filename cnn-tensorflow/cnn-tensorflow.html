@@ -11906,7 +11906,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Explore-the-Data">Explore the Data<a class="anchor-link" href="#Explore-the-Data">&#182;</a></h2><p>The dataset is broken into batches to prevent your machine from running out of memory. The CIFAR-10 dataset consists of 5 batches, named <code>data_batch_1</code>, <code>data_batch_2</code>, etc.. Each batch contains the labels and images that are one of the following:</p>
+<h2 id="Explore-the-Data">Explore the Data<a class="anchor-link" href="#Explore-the-Data">&#182;</a></h2><p>The dataset is broken into batches to prevent the workstation from running out of memory. The CIFAR-10 dataset consists of 5 batches, named <code>data_batch_1</code>, <code>data_batch_2</code>, etc.. Each batch contains the labels and images that are one of the following:</p>
 <ul>
 <li>airplane</li>
 <li>automobile</li>
@@ -12251,7 +12251,7 @@ height=250
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Check-Point">Check Point<a class="anchor-link" href="#Check-Point">&#182;</a></h1><p>Next time we come back to this notebook or have to restart the notebook, we can start from here now that the preprocessed data has been saved to disk. Just make sure you imported all the packages by executing the first cell at the beginning.</p>
+<h1 id="Check-Point">Check Point<a class="anchor-link" href="#Check-Point">&#182;</a></h1><p>Next time we come back to this notebook or have to restart the notebook, we can start from here now that the preprocessed data has been saved to disk. Just make sure we imported all the packages by executing the first cell at the beginning.</p>
 
 </div>
 </div>
@@ -12369,7 +12369,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Convolution-and-Max-Pooling-Layer">Convolution and Max Pooling Layer<a class="anchor-link" href="#Convolution-and-Max-Pooling-Layer">&#182;</a></h3><p>Convolution layers have a lot of success with images. For this code cell, you should implement the function <code>conv2d_maxpool</code> to apply convolution then max pooling:</p>
+<h3 id="Convolution-and-Max-Pooling-Layer">Convolution and Max Pooling Layer<a class="anchor-link" href="#Convolution-and-Max-Pooling-Layer">&#182;</a></h3><p>Convolution layers have a lot of success with images. For this code cell, we should implement the function <code>conv2d_maxpool</code> to apply convolution then max pooling:</p>
 <ul>
 <li>Create the weight and bias using <code>conv_ksize</code>, <code>conv_num_outputs</code> and the shape of <code>x_tensor</code>.</li>
 <li>Apply a convolution to <code>x_tensor</code> using weight and <code>conv_strides</code>.<ul>
@@ -12491,7 +12491,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Fully-Connected-Layer">Fully-Connected Layer<a class="anchor-link" href="#Fully-Connected-Layer">&#182;</a></h3><p>Let us implement the <code>fully_conn</code> function to apply a fully connected layer to <code>x_tensor</code> with the shape (<em>Batch Size</em>, <em>num_outputs</em>). You can use <a href="https://www.tensorflow.org/api_docs/python/tf/layers">TensorFlow Layers</a> or <a href="https://www.tensorflow.org/api_guides/python/contrib.layers">TensorFlow Layers (contrib)</a> for this layer.</p>
+<h3 id="Fully-Connected-Layer">Fully-Connected Layer<a class="anchor-link" href="#Fully-Connected-Layer">&#182;</a></h3><p>Let us implement the <code>fully_conn</code> function to apply a fully connected layer to <code>x_tensor</code> with the shape (<em>Batch Size</em>, <em>num_outputs</em>). We can use <a href="https://www.tensorflow.org/api_docs/python/tf/layers">TensorFlow Layers</a> or <a href="https://www.tensorflow.org/api_guides/python/contrib.layers">TensorFlow Layers (contrib)</a> for this layer.</p>
 
 </div>
 </div>
@@ -12592,7 +12592,7 @@ Keep Prob Tests Passed.
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Create-Convolutional-Model">Create Convolutional Model<a class="anchor-link" href="#Create-Convolutional-Model">&#182;</a></h3><p>Let us implement the function <code>conv_net</code> to create a convolutional neural network model. The function takes in a batch of images, <code>x</code>, and outputs logits. We can use the layers you created above to create this model:</p>
+<h3 id="Create-Convolutional-Model">Create Convolutional Model<a class="anchor-link" href="#Create-Convolutional-Model">&#182;</a></h3><p>Let us implement the function <code>conv_net</code> to create a convolutional neural network model. The function takes in a batch of images, <code>x</code>, and outputs logits. We can use the layers we created above to create this model:</p>
 <ul>
 <li>Apply 1, 2, or 3 Convolution and Max Pool layers</li>
 <li>Apply a Flatten Layer</li>
@@ -12793,7 +12793,7 @@ Keep Prob Tests Passed.
 <h3 id="Hyperparameters">Hyperparameters<a class="anchor-link" href="#Hyperparameters">&#182;</a></h3><p>The following parameters need to be tuned:</p>
 <ul>
 <li>Set <code>epochs</code> to the number of iterations until the network stops learning or start overfitting</li>
-<li>Set <code>batch_size</code> to the highest number that your machine has memory for. In most cases, they are set to common sizes of memory:<ul>
+<li>Set <code>batch_size</code> to the highest number that our workstation has memory for. In most cases, they are set to common sizes of memory:<ul>
 <li>64</li>
 <li>128</li>
 <li>256</li>
@@ -13056,7 +13056,7 @@ Epoch 20, CIFAR-10 Batch 5:  Loss:     0.2445, Accuracy: 0.7046
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Checkpoint">Checkpoint<a class="anchor-link" href="#Checkpoint">&#182;</a></h1><p>The model has been saved to disk.</p>
-<h2 id="Test-Model">Test Model<a class="anchor-link" href="#Test-Model">&#182;</a></h2><p>Let us test your model against the test dataset. This will be our final accuracy for this project. Should we have an accuracy less than 50%, we need to keep tweaking the model architecture and parameters.</p>
+<h2 id="Test-Model">Test Model<a class="anchor-link" href="#Test-Model">&#182;</a></h2><p>Let us test the model against the test dataset. This will be our final accuracy for this project. Should we have an accuracy less than 50%, we need to keep tweaking the model architecture and parameters.</p>
 
 </div>
 </div>
